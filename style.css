@@ -19,7 +19,7 @@ body {
     color: white;
 }
 .footer a {
-    text-align: center;
+    margin: auto;
     color: white;
     padding: 12px;
 }
