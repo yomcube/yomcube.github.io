@@ -1,4 +1,6 @@
-@import url('https://cdn.jsdelivr.net/npm/comic-mono@0.0.1/index.css');
+/* Comic Mono */
+/* @import url('https://cdn.jsdelivr.net/npm/comic-mono@0.0.1/index.css'); */
+/* Ubuntu Mono */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 body {
     background-color: darkslateblue;
@@ -35,7 +37,7 @@ body {
 }
 #titleh1 {
     top: 0;
-    font-family: cursive;
+    font-family: 'Ubuntu Mono', monospace;
     background-color: #8e0080;
     color: white;
 }
