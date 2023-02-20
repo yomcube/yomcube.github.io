@@ -8,6 +8,7 @@ body {
     width: 100vw;
 }
 .footer {
+    text-align: center;
     position: fixed;
     bottom: 0px;
     padding: 12px;
