@@ -35,9 +35,10 @@ body {
 .footer a:active {
     background-color: #8500dd;
 }
-#titleh1 {
+#titlediv {
     top: 0;
     font-family: 'Ubuntu Mono', monospace;
+    font-size: 24px;
     background-color: #8e0080;
     color: white;
 }
