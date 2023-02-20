@@ -3,6 +3,7 @@
 body {
     background-color: darkslateblue;
     color: white;
+    font-family: 'Ubuntu Mono', regular;
 }
 .fullwidth {
     width: 100%;
@@ -14,12 +15,12 @@ body {
     bottom: 0px;
     padding: 12px;
     background-color: #55008e;
-    font-family: Ubuntu Mono, monospace;
+    font-family: 'Ubuntu Mono', monospace;
     font-size: 22px;
     color: white;
 }
 .footer a {
-    margin: auto;
+    margin: 0 auto;
     color: white;
     padding: 12px;
 }
@@ -32,7 +33,8 @@ body {
 .footer a:active {
     background-color: #8500dd;
 }
-#tomcubeswebsite {
+#titleh1 {
+    font-family: cursive;
     background-color: #8e0080;
     color: white;
 }
