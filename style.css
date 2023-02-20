@@ -34,6 +34,7 @@ body {
     background-color: #8500dd;
 }
 #titleh1 {
+    top: 0;
     font-family: cursive;
     background-color: #8e0080;
     color: white;
