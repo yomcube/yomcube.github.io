@@ -1,0 +1,26 @@
+@import url('https://cdn.jsdelivr.net/npm/comic-mono@0.0.1/index.css');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+.top {
+    top: 0;
+}
+.fullwidth {
+    width: 100%;
+}
+nav {
+    background-color: #55008e;
+    font-family: Ubuntu Mono, monospace;
+    color: white;
+}
+nav a:link, nav a:visited {
+    background-color: #55008e;
+}
+nav a:hover {
+    background-color: #6d02b5;
+}
+nav a:active {
+    background-color: #8500dd;
+}
+#tomcubeswebsite {
+    background-color: #8e0080;
+    color: white;
+}
