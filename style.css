@@ -6,6 +6,8 @@ body {
 }
 .fullwidth {
     width: 100%;
+    left: 0;
+    right: 0;
 }
 .footer {
     position: fixed;
