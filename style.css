@@ -7,7 +7,8 @@ body {
 .fullwidth {
     width: 100vw;
 }
-footer {
+.footer {
+    position: absolute;
     bottom: 0px;
     padding: 12px;
     background-color: #55008e;
@@ -15,17 +16,17 @@ footer {
     font-size: 22px;
     color: white;
 }
-footer a {
+.footer a {
     color: white;
     padding: 12px;
 }
-footer a:link, nav a:visited {
+.footer a:link, nav a:visited {
     background-color: #55008e;
 }
-footer a:hover {
+.footer a:hover {
     background-color: #6d02b5;
 }
-footer a:active {
+.footer a:active {
     background-color: #8500dd;
 }
 #tomcubeswebsite {
