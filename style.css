@@ -9,14 +9,15 @@ body {
 }
 footer {
     bottom: 0px;
+    padding: 12px;
     background-color: #55008e;
     font-family: Ubuntu Mono, monospace;
     font-size: 22px;
     color: white;
 }
-footer a, footer a:visited {
+footer a {
     color: white;
-    padding: 10px;
+    padding: 12px;
 }
 footer a:link, nav a:visited {
     background-color: #55008e;
