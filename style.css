@@ -5,7 +5,7 @@ body {
     color: white;
 }
 .fullwidth {
-    width: 100vw;
+    width: 100%;
 }
 .footer {
     position: fixed;
