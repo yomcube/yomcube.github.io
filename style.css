@@ -5,20 +5,25 @@ body {
     color: white;
 }
 .fullwidth {
-    width: 100vw
+    width: 100vw;
 }
-nav {
+footer {
+    bottom: 0px;
     background-color: #55008e;
     font-family: Ubuntu Mono, monospace;
     color: white;
 }
-nav a:link, nav a:visited {
+footer a {
+    color: white;
+    padding: 10px;
+}
+footer a:link, nav a:visited {
     background-color: #55008e;
 }
-nav a:hover {
+footer a:hover {
     background-color: #6d02b5;
 }
-nav a:active {
+footer a:active {
     background-color: #8500dd;
 }
 #tomcubeswebsite {
