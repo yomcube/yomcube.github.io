@@ -11,9 +11,10 @@ footer {
     bottom: 0px;
     background-color: #55008e;
     font-family: Ubuntu Mono, monospace;
+    font-size: 10vw;
     color: white;
 }
-footer a {
+footer a, footer a:visited {
     color: white;
     padding: 10px;
 }
