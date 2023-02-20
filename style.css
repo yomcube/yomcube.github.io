@@ -39,6 +39,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
+    width: 100%;
     font-family: 'Ubuntu Mono', monospace;
     font-size: 32px;
     background-color: #8e0080;
