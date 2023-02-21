@@ -1,7 +1,7 @@
-/* Comic Mono */
-/* @import url('https://cdn.jsdelivr.net/npm/comic-mono@0.0.1/index.css'); */
 /* Ubuntu Mono */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+/* Nova Mono */
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
 body {
     background-color: #F5F9F1;
     color: black;
@@ -46,7 +46,7 @@ body {
     border-radius: 100px;
     text-align: center;
     margin: auto;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Nova Mono', monospace;
     background-color: #D5CAD6;
     color: black;
 }
