@@ -29,13 +29,13 @@ body {
     padding: 12px;
 }
 .footer a:link, nav a:visited {
-    background-color: #bbadff;
+    background-color: #422040;
 }
 .footer a:hover {
-    background-color: #ada7ff;
+    background-color: #602E5D;
 }
 .footer a:active {
-    background-color: #9fa0ff;
+    background-color: #8A4285;
 }
 #titleh1 {
     top: 0;
