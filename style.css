@@ -1,11 +1,13 @@
 /* Ubuntu Mono */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+/* Noto Sans */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
 /* Gloria Hallelujah */
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 body {
     background-color: #F5F9F1;
     color: black;
-    font-family: 'Ubuntu Mono', regular;
+    font-family: 'Noto Sans', regular;
 }
 .fullwidth {
     width: 100%;
