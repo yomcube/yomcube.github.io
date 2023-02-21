@@ -16,6 +16,7 @@ body {
     position: fixed;
     bottom: 0px;
     padding: 12px;
+    text-align: center;
     background-color: #55008e;
     font-family: 'Ubuntu Mono', monospace;
     font-size: 22px;
