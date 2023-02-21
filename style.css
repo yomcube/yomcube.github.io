@@ -3,8 +3,8 @@
 /* Ubuntu Mono */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 body {
-    background-color: #C8B6FF;
-    color: white;
+    background-color: #F5F9F1;
+    color: black;
     font-family: 'Ubuntu Mono', regular;
 }
 .fullwidth {
@@ -17,7 +17,7 @@ body {
     bottom: 0px;
     padding: 12px;
     text-align: center;
-    background-color: #bbadff;
+    background-color: #422040;
     font-family: 'Ubuntu Mono', monospace;
     font-size: 22px;
     color: white;
@@ -47,6 +47,6 @@ body {
     text-align: center;
     margin: auto;
     font-family: 'Ubuntu Mono', monospace;
-    background-color: #8187d0;
-    color: white;
+    background-color: #D5CAD6;
+    color: black;
 }
