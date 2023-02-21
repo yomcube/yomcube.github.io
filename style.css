@@ -23,6 +23,7 @@ body {
 }
 .footer a {
     margin: 0 auto;
+    text-align: center;
     color: white;
     padding: 12px;
 }
