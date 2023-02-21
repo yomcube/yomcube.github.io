@@ -3,7 +3,7 @@
 /* Ubuntu Mono */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 body {
-    background-color: darkslateblue;
+    background-color: #C8B6FF;
     color: white;
     font-family: 'Ubuntu Mono', regular;
 }
@@ -17,7 +17,7 @@ body {
     bottom: 0px;
     padding: 12px;
     text-align: center;
-    background-color: #55008e;
+    background-color: #bbadff;
     font-family: 'Ubuntu Mono', monospace;
     font-size: 22px;
     color: white;
@@ -29,13 +29,13 @@ body {
     padding: 12px;
 }
 .footer a:link, nav a:visited {
-    background-color: #55008e;
+    background-color: #bbadff;
 }
 .footer a:hover {
-    background-color: #6d02b5;
+    background-color: #ada7ff;
 }
 .footer a:active {
-    background-color: #8500dd;
+    background-color: #9fa0ff;
 }
 #titleh1 {
     top: 0;
@@ -47,6 +47,6 @@ body {
     text-align: center;
     margin: auto;
     font-family: 'Ubuntu Mono', monospace;
-    background-color: #8e0080;
+    background-color: #8187d0;
     color: white;
 }
