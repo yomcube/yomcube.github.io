@@ -1,7 +1,7 @@
 /* Ubuntu Mono */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
-/* Nova Mono */
-@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+/* Gloria Hallelujah */
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 body {
     background-color: #F5F9F1;
     color: black;
@@ -46,7 +46,7 @@ body {
     border-radius: 100px;
     text-align: center;
     margin: auto;
-    font-family: 'Nova Mono', monospace;
+    font-family: 'Gloria Hallelujah', regular;
     background-color: #D5CAD6;
     color: black;
 }
