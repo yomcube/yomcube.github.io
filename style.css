@@ -54,3 +54,8 @@ body {
     background-color: #D5CAD6;
     color: black;
 }
+table, th, td {
+    border: 1px solid #9E9E9E;
+table {
+    border-collapse: collapse;
+}
