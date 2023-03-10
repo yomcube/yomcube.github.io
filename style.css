@@ -4,10 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
 /* Gloria Hallelujah */
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+* {
+    font-family: 'Noto Sans', sans, regular;
+}
 body {
     background-color: #F5F9F1;
     color: black;
-    font-family: 'Noto Sans', regular;
 }
 .fullwidth {
     width: 100%;
@@ -51,4 +53,9 @@ body {
     font-family: 'Gloria Hallelujah', regular;
     background-color: #D5CAD6;
     color: black;
+}
+table th, table td {
+    padding: 6px 13px;
+    border: 1px solid #d0d7de;
+    border-collapse: collapse;
 }
