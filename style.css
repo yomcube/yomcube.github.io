@@ -59,6 +59,7 @@ table, table th, table td {
     border: 1px solid #9E9E9E;
 }
 table th, table td {
+    text-align: center;
     padding: 6px 13px;
 }
 table {
