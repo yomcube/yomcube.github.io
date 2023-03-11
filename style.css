@@ -16,9 +16,9 @@ body {
     left: 0;
     right: 0;
 }
-.footer {
-    position: fixed;
-    bottom: 0px;
+.header {
+    position: sticky;
+    top: 0;
     padding: 12px;
     text-align: center;
     background-color: #422040;
@@ -26,29 +26,28 @@ body {
     font-size: 22px;
     color: white;
 }
-.footer a {
-    margin: 0 auto;
+.header a {
+    margin-right: 5%;
     text-align: center;
     font-family: 'Ubuntu Mono', monospace;
     color: white;
     padding: 12px;
 }
-.footer a:link, nav a:visited {
+.header a:link, .header a:visited {
     background-color: #422040;
 }
-.footer a:hover {
+.header a:hover {
     background-color: #602E5D;
 }
-.footer a:active {
+.header a:active {
     background-color: #8A4285;
 }
-#titleh1 {
+.header h1 {
     top: 0;
-    left: 0;
-    right: 0;
-    width: 50%;
-    border: 2px black;
-    border-radius: 100px;
+    left: 5%;
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 50%;
     text-align: center;
     margin: auto;
     font-family: 'Gloria Hallelujah', regular;
