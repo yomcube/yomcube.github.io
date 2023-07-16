@@ -1,66 +1,43 @@
-/* Ubuntu Mono */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
-/* Noto Sans */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
-/* Gloria Hallelujah */
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
-* {
-    font-family: 'Noto Sans', sans, regular;
-}
 body {
-    background-color: #F5F9F1;
-    color: black;
+	font-family: 'Noto Sans', sans, regular;
+	background-color: #624663;
+	color: #f5f9f1;
+	font-size: 18px;
 }
-.fullwidth {
-    width: 100%;
-    left: 0;
-    right: 0;
+a:link, a:visited {
+	color: #cac7fc;
 }
+
+/* header stuff */
+.header, .altheader { height: 125px; }
 .header {
-    position: sticky;
-    top: 0;
-    padding: 12px;
-    text-align: center;
-    background-color: #422040;
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 22px;
-    color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 12px;
+	text-align: center;
+	background-color: #422040;
+	font-family: 'Noto Sans', monospace;
+	font-size: 22px;
+	color: white;
 }
 .header a {
-    margin: 5% auto;
-    text-align: center;
-    font-family: 'Ubuntu Mono', monospace;
-    color: white;
-    padding: 12px;
+	margin: 5% auto;
+	text-align: center;
+	font-family: 'Noto Sans', monospace;
+	color: white;
+	padding: 12px;
 }
-.header a:link, .header a:visited {
-    background-color: #422040;
-}
-.header a:hover {
-    background-color: #602E5D;
-}
-.header a:active {
-    background-color: #8A4285;
-}
+.header a:hover { background-color: #602E5D; }
+.header a:active { background-color: #8A4285; }
 .header h1 {
-    top: 0;
-    left: 5%;
-    width: 25%;
-    border: 2px solid black;
-    border-radius: 50%;
-    text-align: center;
-    margin: auto;
-    font-family: 'Gloria Hallelujah', regular;
-    background-color: #D5CAD6;
-    color: black;
-}
-table, table th, table td {
-    border: 1px solid #9E9E9E;
-}
-table th, table td {
-    text-align: center;
-    padding: 6px 13px;
-}
-table {
-    border-collapse: collapse;
+	top: 0;
+	width: 25%;
+	text-align: center;
+	margin: auto;
+	font-family: 'Gloria Hallelujah', regular;
+	color: #D5CAD6;
 }
