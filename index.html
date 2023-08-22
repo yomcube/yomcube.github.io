@@ -45,5 +45,9 @@
 				</li>
 			</ul>
 		</p>
+		<script>
+			var params = (new URL(document.location)).searchParams;
+			if (params.has("alert")) { alert(params.get("alert")); }
+		</script>
 	</body>
 </html>
