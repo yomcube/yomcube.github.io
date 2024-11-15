@@ -17,7 +17,7 @@ const littleEndian = (() => {
 
 // Helper functions
 function row(p, v) {
-	return `<tr><td>${p}</td><td>${v}</td></tr>\n`;
+	return `<tr><th>${p}</th><td>${v}</td></tr>\n`;
 }
 function get_u_le(data, offset, bytes) {
 	var val = 0n;
