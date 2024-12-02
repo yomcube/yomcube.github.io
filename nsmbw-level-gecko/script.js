@@ -27,8 +27,8 @@ function type(type, addr) {
 
 function createCode() {
 	var info = JSON.parse(stage.value.replace(/'/g, '"'));
-
-	var s = "";
+	
+	var s = "$Start on " + stage.selectedOptions[0].text + " [TomCube]\n";
 	s += type(0x02, getSaveAddr() + 3) + " ";
 	s += padHex(info.w, 6) + padHex(info.s, 2) + "\n";
 	
