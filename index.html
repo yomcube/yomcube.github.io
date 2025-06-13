@@ -3,51 +3,81 @@
 	<head>
 		<meta charset="utf-8">
 		<title>TomCube</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="index.style.css">
 	</head>
 	<body>
 		<div class="header">
 			<h1>TomCube</h1>
 			<div class="links">
 				<a target="_blank" href="https://www.youtube.com/channel/UCEf5iYtqzl84Dvs6VyZyWIQ">YouTube</a> |
-				<a target="_blank" href="https://www.speedrun.com/user/TomCube">Speedrun.com</a> |
 				<a target="_blank" href="https://github.com/yomcube">GitHub</a>
 			</div>
 		</div>
 		<div class="altheader">&nbsp;</div>
-		<h2>Stuff</h2>
 		<p>
-			Here's a list of some cool things I've made.
+			Some cool things I've made:
 			<ul>
 				<li>
-					<a target="_blank" href="https://yomcube.github.io/tasking/">
-						Tasking
+					<a target="_blank" href="https://youtu.be/ZNOHPBLnI10?t=15">
+						Bad Apple!! in ClassiCube
 					</a>
-					<ul><li>A website to manage your tasks.</li></ul>
+					<ul>
+						<li>
+							An MCGalaxy (ClassiCube server) command that plays the
+							<i>Bad Apple!!</i> animation in-game.
+							Source code available <a target="_blank" href="https://github.com/yomcube/bad-apple/tree/main/ClassiCube/MCGalaxy">here</a>.
+						</li>
+					</ul>
 				</li>
 				<li>
-					<a target="_blank" href="https://yomcube.github.io/prime-numbers/">
+					<a target="_blank" href="https://github.com/yomcube/file-utils">
+						file-utils
+					</a>
+					<ul>
+						<li>
+							A website for displaying the data fields of some file types.
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a target="_blank" href="https://github.com/yomcube/prime-numbers">
 						Prime Number Chart
 					</a>
-					<ul><li>A prime number chart using the sieve of Eratosthenes.</li></ul>
+					<ul>
+						<li>
+							A prime number chart using the sieve of Eratosthenes.
+						</li>
+					</ul>
 				</li>
 				<li>
-					<a target="_blank" href="nsmbw-il-speedruncom.html">
-						NSMBW IL Picker
+					<a target="_blank" href="https://github.com/yomcube/RVLTS">
+						RVLTS
 					</a>
-					<ul><li>A simple website to choose the NSMBW IL you want to view.</li></ul>
+					<ul>
+						<li>
+							A work-in-progress implementation of Revolution SDK, NW4R, and EGG in TypeScript.
+						</li>
+					</ul>
 				</li>
 				<li>
-					<a target="_blank" href="https://github.com/yomcube/chat-app">
-						chat-app
+					<a target="_blank" href="https://github.com/yomcube/GhostDB">
+						GhostDB
 					</a>
-					<ul><li>A simple chat website</li></ul>
+					<ul>
+						<li>
+							An alternative Mario Kart Wii ghost database to CTGP-R's.
+							Currently, the project aims to provide an API (written in Go) to a
+							PostgreSQL database.
+						</li>
+					</ul>
 				</li>
 			</ul>
 		</p>
 		<script>
 			var params = (new URL(document.location)).searchParams;
-			if (params.has("alert")) { alert(params.get("alert")); }
+			if (params.has("alert")) {
+				alert(params.get("alert"));
+			}
 		</script>
 	</body>
 </html>
