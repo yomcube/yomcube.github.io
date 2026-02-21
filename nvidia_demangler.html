@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8" />
+	<title>Nvidia CW ABI Demangler</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown-dark.min.css" integrity="sha512-OtEVQKlou4M/GacGwvUl27uo+XNyHfUlMP/furdKClgpkU++3SepORomgRC1uV7qjJ5fnV8ENVt2qXkR8enD1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style>
+		.container {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			margin: 1em;
+		}
+		.markdown-body input {
+			margin: 1em;
+			padding: 0.25em 0.5em;
+			width: 50%;
+			text-align: center;
+		}
+		.markdown-body pre {
+			max-width: 75%;
+		}
+		footer {
+			position: absolute;
+			bottom: 2em;
+		}
+	</style>
+</head>
+<body class="markdown-body container">
+	<input id="mangled" type="text" />
+	<pre id="out"></pre>
+	<footer>
+		<hr />
+		Replication of the CW ABI demangler used by NVIDIA for the NVIDIA Shield ports written by
+		<a href="https://github.com/RootCubed">RootCubed</a>, ported from the
+		<a href="https://gist.github.com/RootCubed/d7e2629f4576059853505b7931ffd105">C++ version</a>.
+	</footer>
+	<script src="nvidia_demangler.js"></script>
+	<script>
+		let mangledElem = document.getElementById("mangled");
+		let outElem = document.getElementById("out");
+
+		function f(ev) {
+			outElem.innerText = demangle(ev.target.value);
+		}
+
+		mangledElem.addEventListener("input", f);
+
+		f({target: mangledElem});
+	</script>
+</body>
